@@ -1,0 +1,21 @@
+{
+  "name": "mgm-configuration",
+  "version": "1.0.0",
+  "description": "storages configurations by tenant",
+  "main": "index.js",
+  "scripts": {
+    "dev": "moleculer-runner --env --config src/config/moleculer.dev.config.js src/services",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Martinez Pupo <segpacto@yahoo.es>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "moleculer": "^0.13.11",
+    "moleculer-db": "^0.8.4",
+    "moleculer-db-adapter-mongoose": "^0.8.3",
+    "moleculer-web": "^0.8.5",
+    "mongoose": "^5.7.12",
+    "standard": "^14.3.1"
+  }
+}
