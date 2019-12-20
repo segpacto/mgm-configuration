@@ -4,6 +4,7 @@
   "description": "storages configurations by tenant",
   "main": "index.js",
   "scripts": {
+    "start": "node ./src/index.js",
     "dev": "moleculer-runner --env --config src/config/moleculer.dev.config.js src/services",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

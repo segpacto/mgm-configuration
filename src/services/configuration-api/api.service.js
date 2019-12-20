@@ -6,7 +6,6 @@ module.exports = {
   name: 'configuration-api',
   mixins: [ApiGwService],
   settings: {
-    // Change port setting
     port: config.get('apiPort')
   },
   actions

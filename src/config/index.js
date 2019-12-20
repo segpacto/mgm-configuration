@@ -5,7 +5,7 @@ const Config = {
   apiPort: ENV.PORT || 3001,
   enableAuth: true,
   db: {
-    uri: 'mongodb://localhost/mgm-configuration'
+    uri: 'mongodb://localhost:27017/mgm-configuration'
   },
   moleculer: {
     LOGGER: ENV.LOGGER || true,
