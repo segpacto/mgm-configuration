@@ -13,10 +13,10 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "moleculer": "^0.13.11",
-    "moleculer-db": "^0.8.4",
+    "moleculer-db": "^0.8.15",
     "moleculer-db-adapter-mongoose": "^0.8.3",
-    "moleculer-web": "^0.8.5",
-    "mongoose": "^5.7.12",
+    "moleculer-web": "^0.10.2",
+    "mongoose": "^6.0.7",
     "standard": "^14.3.1"
   }
 }
