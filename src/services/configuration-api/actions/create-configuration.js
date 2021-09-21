@@ -1,5 +1,3 @@
-const { MoleculerError } = require('moleculer').Errors
-
 module.exports = {
   params: {
     tenant: { type: 'string', required: true },
